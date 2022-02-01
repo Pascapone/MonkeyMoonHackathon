@@ -1,0 +1,1 @@
+export type WalletLinkConfimationStatus = 'confirmed' | 'not-confirmed' | 'user-unknown' | 'not-linked' 

@@ -1,0 +1,237 @@
+{
+  "contractName": "IMonkeyMoonToken",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newTaxesAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeTaxesAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newTaxesAddress\",\"type\":\"address\"}],\"name\":\"changeTaxesAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/IMonkeyMoonToken.sol\":\"IMonkeyMoonToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/IMonkeyMoonToken.sol\":{\"keccak256\":\"0x329cd6cacbaf4e5c48e0ba15f018f11f11193b87f4fa6a9ff6e06f7af470cff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://52cf5424390b9e5fb2655d8384290479f536df94e2534b696e41d25b4a71c614\",\"dweb:/ipfs/QmYSxmtfu2j84URCzy36iDJw1U4XmP4xHuQ7nubw8pEk7M\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ninterface IMonkeyMoonToken {\r\n    function changeTaxesAddress(address newTaxesAddress) external;\r\n}",
+  "sourcePath": "C:\\Users\\pasca\\Documents\\web-dev\\monkeymoon-mobile-rework\\frontend\\src\\contracts\\IMonkeyMoonToken.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/IMonkeyMoonToken.sol",
+    "exportedSymbols": {
+      "IMonkeyMoonToken": [
+        681
+      ]
+    },
+    "id": 682,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 675,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 681,
+        "linearizedBaseContracts": [
+          681
+        ],
+        "name": "IMonkeyMoonToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "501a3b37",
+            "id": 680,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeTaxesAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 678,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 677,
+                  "mutability": "mutable",
+                  "name": "newTaxesAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 680,
+                  "src": "122:23:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 676,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "122:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "121:25:2"
+            },
+            "returnParameters": {
+              "id": 679,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:2"
+            },
+            "scope": 681,
+            "src": "94:62:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 682,
+        "src": "60:99:2"
+      }
+    ],
+    "src": "33:126:2"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/src/contracts/IMonkeyMoonToken.sol",
+    "exportedSymbols": {
+      "IMonkeyMoonToken": [
+        681
+      ]
+    },
+    "id": 682,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 675,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 681,
+        "linearizedBaseContracts": [
+          681
+        ],
+        "name": "IMonkeyMoonToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "501a3b37",
+            "id": 680,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeTaxesAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 678,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 677,
+                  "mutability": "mutable",
+                  "name": "newTaxesAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 680,
+                  "src": "122:23:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 676,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "122:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "121:25:2"
+            },
+            "returnParameters": {
+              "id": 679,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:2"
+            },
+            "scope": 681,
+            "src": "94:62:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 682,
+        "src": "60:99:2"
+      }
+    ],
+    "src": "33:126:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-31T19:31:31.753Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

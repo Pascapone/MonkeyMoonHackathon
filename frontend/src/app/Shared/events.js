@@ -1,0 +1,1 @@
+export const copiedToClipboardEvent = new Event("copiedToClipboard")

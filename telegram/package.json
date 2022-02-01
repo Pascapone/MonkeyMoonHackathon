@@ -1,0 +1,22 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@grammyjs/menu": "^1.0.4",
+    "@grammyjs/router": "^1.1.1",
+    "dotenv": "^14.2.0",
+    "ethers": "^5.5.3",
+    "grammy": "^1.6.2",
+    "moralis": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node dist/bot.js",
+    "start-prod" : "node dist/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
